@@ -11,8 +11,8 @@ reqhdrs = {
 }
 
 response = requests.post(url,
-						 verify='.\certs\zpdtca.pem',
-			             headers=reqhdrs)
+			 verify='.\certs\zpdtca.pem',
+		         headers=reqhdrs)
 
 print('Status code = ',response.status_code)
 print('Returned headers:')
