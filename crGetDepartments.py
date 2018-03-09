@@ -8,10 +8,10 @@ data = {
   'requestType':'createService',
   'sqlStmt':'SELECT DEPTNO,'+
                    'DEPTNAME,'+
-				   'MGRNO,'+
-				   'ADMRDEPT '+
-            'FROM DEPT '+
-			'ORDER BY DEPTNO',
+		   'MGRNO,'+
+		   'ADMRDEPT '+
+             'FROM DEPT '+
+	     'ORDER BY DEPTNO',
   'collectionID':'GILLJSRV',
   'serviceName':'GetDepartments',
   'description':'List departments ordered by DEPTNO',
