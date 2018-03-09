@@ -6,9 +6,9 @@ baseurl = 'https://s0w1.zpdt.local:2052'
 url = baseurl + '/services/GILLJSRV/GetDepartments'
 
 response = requests.post(url,
-						 verify='.\certs\zpdtca.pem',
-						 cert=('.\certs\zpdt_webclient.cert.pem','.\certs\zpdt_webclient.keys.pem'),
-			             headers={'Content-Type':'application/json'})
+			 verify='.\certs\zpdtca.pem',
+			 cert=('.\certs\zpdt_webclient.cert.pem','.\certs\zpdt_webclient.keys.pem'),
+			 headers={'Content-Type':'application/json'})
 
 print('Status code = ',response.status_code)
 print('Returned headers:')
